@@ -50,4 +50,13 @@ public class TodoRest {
     public List<Todo> geTodos(){
         return todoService.getTodos();
     }
+
+    @Path("status")
+    @POST
+    public Response markAsComplete(@QueryParam("id") Long id){
+        Todo todo = todoService.findTodoDoById(id);
+        todo.setCompleted(true);
+        todoService.updateTodo(todo);
+        return Response.ok(todo).build();
+    }
 }
