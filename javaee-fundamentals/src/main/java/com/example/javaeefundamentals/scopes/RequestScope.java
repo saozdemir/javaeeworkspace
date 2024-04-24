@@ -5,7 +5,7 @@ package com.example.javaeefundamentals.scopes;
  * @project javaeeworkspace
  * @date 23 Apr 2024
  * <p>
- * @description:
+ * @description: Her HTTP isteğinde bir bean nesnesi oluşturulur.
  */
 import javax.enterprise.context.RequestScoped;
 

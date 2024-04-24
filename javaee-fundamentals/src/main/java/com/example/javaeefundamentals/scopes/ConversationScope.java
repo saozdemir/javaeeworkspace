@@ -5,7 +5,7 @@ package com.example.javaeefundamentals.scopes;
  * @project javaeeworkspace
  * @date 23 Apr 2024
  * <p>
- * @description:
+ * @description: SessionScope gibi ama daha uzun ve manuel session kontrolü için kullanılır.
  */
 import javax.enterprise.context.ConversationScoped;
 import java.io.Serializable;

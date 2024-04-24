@@ -5,7 +5,7 @@ package com.example.javaeefundamentals.scopes;
  * @project javaeeworkspace
  * @date 23 Apr 2024
  * <p>
- * @description:
+ * @description: Tüm uygulama boyunce bir tek bean nesnesi oluşturur.
  */
 import javax.enterprise.context.ApplicationScoped;
 import java.io.Serializable;

@@ -10,7 +10,7 @@ import java.lang.annotation.Target;
  * @project javaeeworkspace
  * @date 23 Apr 2024
  * <p>
- * @description:
+ * @description: @Police ve @Soldier anotasyonlarını tek tek kullanmak yerine bir enum içerisine tanımlama yapılarak kullanıldı.
  */
 
 @Qualifier

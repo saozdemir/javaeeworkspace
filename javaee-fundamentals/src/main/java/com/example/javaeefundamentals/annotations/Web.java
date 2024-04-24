@@ -12,7 +12,7 @@ import javax.inject.Named;
  * @project javaeeworkspace
  * @date 23 Apr 2024
  * <p>
- * @description:
+ * @description: Bir anotasyon grubu oluşturuldu. Her sınıf öncesinde tek tek tanımlama yerine @Web anotasyonu ile standart hale getirildi.
  */
 
 
