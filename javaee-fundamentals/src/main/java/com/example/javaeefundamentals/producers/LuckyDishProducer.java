@@ -5,8 +5,9 @@ package com.example.javaeefundamentals.producers;
  * @project javaeeworkspace
  * @date 23 Apr 2024
  * <p>
- * @description:
+ * @description: Bu producer sınıfı bir fabrika modeli gibi çalışır.
  */
+
 import javax.enterprise.inject.Disposes;
 import javax.enterprise.inject.Produces;
 import java.util.ArrayList;
@@ -15,15 +16,12 @@ import java.util.List;
 public class LuckyDishProducer {
 
     /**
-     * Producer methods are very useful for when the concrete type to to be
-     * injected varies at runtime. This provides polymorphic injection at
-     * runtime. Think of CDI producers as the Factory Pattern.
+     * Producer metodları, enjekte edilecek somut tipin çalışma zamanında değiştiği durumlar için çok faydalıdır.
+     * Bu, çalışma zamanında polimorfik enjeksiyon sağlar. CDI producer'larını Fabrika Modeli olarak düşünün.
      * <p>
-     * Producers are also a way to transform beans we don't own into contextual
-     * instances
+     * Producer'lar ayrıca sahip olmadığımız bean'leri bağlamsal örnekler haline getirmek için bir yol sunar.
      * <p>
-     * Default scope of produced object is Dependent Scope. Could be altered by
-     * annotating the method accordingly.
+     * Üretilen nesnenin varsayılan kapsamı Bağımlı Kapsamdır. Metodu uygun şekilde notasyon ekleyerek değiştirilebilir.
      */
     @Produces
     public List<String> getLuckyDish() {
@@ -46,4 +44,5 @@ public class LuckyDishProducer {
     public void dispose(@Disposes List<String> dishes) {
         dishes = null;
     }
+
 }
