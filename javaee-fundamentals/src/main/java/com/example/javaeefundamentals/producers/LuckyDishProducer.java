@@ -28,15 +28,15 @@ public class LuckyDishProducer {
 
         List<String> dishes = new ArrayList<>();
 
-        dishes.add("Ampesi");
-        dishes.add("Tuo Zaafi");
-        dishes.add("Banku");
-        dishes.add("Fufu");
-        dishes.add("Red Red");
-        dishes.add("Gari Foto");
-        dishes.add("Ebunu Ebunu");
-        dishes.add("Fante Fante");
-        dishes.add("Mpotompoto");
+        dishes.add("Mantı");
+        dishes.add("Haşlama");
+        dishes.add("Göveç");
+        dishes.add("Tavuk Sote");
+        dishes.add("Rosto");
+        dishes.add("Mücver");
+        dishes.add("Dolma");
+        dishes.add("Baklava");
+        dishes.add("Musakka");
         return dishes;
 
     }
